@@ -6,7 +6,7 @@ This Flask-based web application uses a pre-trained deep learning model to detec
 
 1. Clone the repository to your local machine:
    ```
-   git clone <repository-url>
+   git clone https://github.com/ayam04/Music-Recommendation-System-Using-Facial-Recognition-
    cd emotion-based-music-recommendation
    ```
 
