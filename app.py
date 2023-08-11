@@ -10,10 +10,10 @@ app.config['SEND_FILE_MAX_AGE_DEFAULT'] = 1
 
 info = {}
 
-haarcascade = "haarcascade_frontalface_default.xml"
-label_map = ['Anger', 'Neutral', 'Fear', 'Happy', 'Sad', 'Surprise']
+haarcascade = "Models/haarcascade_frontalface_default.xml"
+label_map = ['Angry', 'Neutral', 'Fear', 'Happy', 'Sad', 'Surprise']
 print("+"*50, "loading model")
-model = load_model('model.h5')
+model = load_model('Models/model.h5')
 cascade = cv2.CascadeClassifier(haarcascade)
 
 @app.route('/')
