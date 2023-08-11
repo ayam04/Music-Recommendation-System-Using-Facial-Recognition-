@@ -7,15 +7,15 @@ h1{
 	color: #289672;
 }
 .title{
-	margin-top: 20px;
+	margin-top: 30px;
 }
 input[type="radio"]{
 	display: none;
 }
 .box{
 	background-color: #ddffbc;
-	height: 330px;
-	width: 450px;
+	height: 300px;
+	width: 400px;
 	padding: 30px;
 	text-align:center;
 	font-size: 40px;
@@ -27,7 +27,7 @@ input[type="radio"]{
 
 }
 .box:hover{
-	background-color: #91c788;
+	background-color: #ffffff;
 	transition-duration: 1s;
 }
 
