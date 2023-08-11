@@ -1,5 +1,3 @@
-Certainly! Here's a basic README for your Flask application:
-
 ## Emotion-Based Music Recommendation Web App
 
 This Flask-based web application uses a pre-trained deep learning model to detect emotions from a live webcam feed and recommends music based on the detected emotion. It also allows the user to choose their preferred language and singer to tailor the music recommendations.
@@ -51,14 +49,13 @@ This Flask-based web application uses a pre-trained deep learning model to detec
 
 ### Credits
 
-- This application was developed by [Your Name].
+- This application was developed by Ayamullah Khan.
 - The deep learning model is based on [source link to the model].
 - Haarcascade classifier for face detection is obtained from [source link to Haarcascade XML].
-- This app uses the Flask framework [link to Flask].
 
 ### Contact
 
-For any questions or feedback, please contact [your-email@example.com].
+For any questions or feedback, please contact ayamullahkhan04@gmail.com.
 
 ### License
 
