@@ -13,7 +13,7 @@ info = {}
 haarcascade = "Models/haarcascade_frontalface_default.xml"
 label_map = ['Angry', 'Neutral', 'Fear', 'Happy', 'Sad', 'Surprise']
 print("+"*50, "loading model")
-model = load_model('Models/emotion_model.hdf5')
+model = load_model('Models/model.h5')
 cascade = cv2.CascadeClassifier(haarcascade)
 
 @app.route('/')
