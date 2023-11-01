@@ -1,21 +1,28 @@
 body{
 	text-align: center;
 }
+head{
+	text-align: center;
+	font-size: 40px;
 
+}
 h1{
 	font-family: sans-serif;
 	color: #289672;
 }
 .title{
-	margin-top: 30px;
+	margin-top: 20px;
+	text-align: center;
+	font-size: 40px;
 }
 input[type="radio"]{
 	display: none;
+	text-align: center;
 }
 .box{
 	background-color: #ddffbc;
-	height: 300px;
-	width: 400px;
+	height: 330px;
+	width: 450px;
 	padding: 30px;
 	text-align:center;
 	font-size: 40px;
@@ -27,7 +34,7 @@ input[type="radio"]{
 
 }
 .box:hover{
-	background-color: #ffffff;
+	background-color: #91c788;
 	transition-duration: 1s;
 }
 
